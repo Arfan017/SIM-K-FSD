@@ -1,0 +1,38 @@
+body{
+    /* background-image: url("Images/bg_.png"); */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 6rem;
+}
+
+nav a{
+    color: rgb(217, 214, 202);
+    font-weight: bold;
+}
+
+nav.navbar div.container-fluid div.collapse a{
+    color: rgb(217, 214, 202);
+}
+
+nav.navbar div.container-fluid a {
+    color: rgb(217, 214, 202);
+}
+
+.container p{
+    color: rgb(33, 33, 31);
+}
+
+.bg-blur{
+        background-color: rgb(217 214 202 / 0.5);;
+    backdrop-filter: blur(10px);
+}
+
+.container.bg-blur{
+    color: antiquewhite;
+}
+
+div.container form button.btn{
+    width: 100%;
+}
